@@ -8,8 +8,8 @@ yum -y install ansible
 # retrieve ansible code
 yum -y install git
 rm -Rf cursus-devops || echo "previous folder removed"
-git clone https://github.com/diranetafen/cursus-devops.git
-cd cursus-devops/ansible
+git clone https://github.com/DjaloS/devops.git
+cd devops/ansible
 ansible-galaxy install -r roles/requirements.yml
 if [ $1 == "master" ]
 then
