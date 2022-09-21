@@ -15,3 +15,6 @@
 
 # Install kubenretes
 - src: geerlingguy.kubernetes
+
+# install role kubernetes avec plugin calico
+-src: https://github.com/DjaloS/ansible-role-kubernetes.git
