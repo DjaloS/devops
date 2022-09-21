@@ -43,4 +43,3 @@
     - role: geerlingguy.pip
     - role: geerlingguy.docker
     - role: ansible-role-kubernetes
-    #- role: geerlingguy.kubernetes
